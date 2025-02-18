@@ -6,7 +6,8 @@ export default function Home() {
       {/* Sticky Navbar at Top Right with higher z-index */}
       <div className="fixed top-4 right-4 text-white p-2 rounded-lg z-50">
         <nav>
-          <ul className="flex sm:flex-row sm:space-x-4 flex-col sm:space-y-0 space-y-2 text-right">
+          <ul className="flex sm:flex-row sm:space-x-8 flex-col sm:space-y-0 space-y-2 text-right">
+            <li><a href="#home" className="hover:underline focus:outline-none">Home</a></li>
             <li><a href="#about" className="hover:underline focus:outline-none">About</a></li>
             <li><a href="#work" className="hover:underline focus:outline-none">Work</a></li>
             <li><a href="#contact" className="hover:underline focus:outline-none">Contact</a></li>
@@ -15,7 +16,7 @@ export default function Home() {
       </div>
 
       {/* Landing Page */}
-      <section className="h-screen flex flex-col justify-center relative">
+      <section id="home" className="h-screen flex flex-col justify-center relative">
         {/* Title and Subtitle aligned top left */}
         <div className="absolute top-4 left-4 text-white">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Eric Do</h1>

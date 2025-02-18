@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="relative w-screen flex flex-col">
       {/* Sticky Navbar at Bottom Left with higher z-index */}
-      <div className="fixed bottom-4 left-4 bg-gray-900 text-white p-2 rounded-lg z-50">
+      <div className="fixed bottom-4 left-4 text-white p-2 rounded-lg z-50">
         <nav>
           <ul className="flex flex-col space-y-2 text-left">
             <li><a href="#about" className="hover:underline focus:outline-none">About</a></li>

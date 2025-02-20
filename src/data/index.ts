@@ -247,12 +247,10 @@ export const PROJECTS = [
       TAGS.VERCEL
     ],
     description:
-      'A starter guide template blog made with Next.js and BaseHub CMS. It uses the BaseHub API to fetch and display posts.',
+      'A modern note taking app that leverages mind mapping and markdown to help you think and write better.',
     link: {
-      github: 'https://github.com/basehub-ai/nextjs-blog',
-      preview: 'https://nextjs-blog-basehub.vercel.app'
+      preview: 'https://www.propagate.ink/'
     },
-    image: '/images/basehub-nextjs-blog.png'
   },
   {
     title: 'UNSW Mathematics Society Website',
@@ -263,12 +261,11 @@ export const PROJECTS = [
       TAGS.TYPESCRIPT,
     ],
     description:
-      'A website entire built from scratch.',
+      'The official website for the UNSW Mathematics Society.',
     link: {
       github: 'https://github.com/MathSocUNSW/mathsoc-website',
       preview: 'https://unswmathsoc.org'
     },
-    image: '/images/basehub-nextjs-blog.png'
   },
   {
     title: 'GooberGPT',
@@ -281,12 +278,11 @@ export const PROJECTS = [
       TAGS.OPENAI
     ],
     description:
-      'A starter guide template blog made with Next.js and BaseHub CMS. It uses the BaseHub API to fetch and display posts.',
+      'A chatbot that uses OpenAI GPT-3.5 Turbo to generate silly responses.',
     link: {
-      github: 'https://github.com/basehub-ai/nextjs-blog',
-      preview: 'https://nextjs-blog-basehub.vercel.app'
+      github: 'https://github.com/ericnd/goober-gpt',
+      preview: 'https://goober-gpt.vercel.app/'
     },
-    image: '/images/basehub-nextjs-blog.png'
   },
   {
     title: 'UNSW Cat Appreciation Society Website',
@@ -297,11 +293,10 @@ export const PROJECTS = [
       TAGS.TYPESCRIPT,
     ],
     description:
-      'A website entire built from scratch.',
+      'The unfinished website for the UNSW Cat Appreciation Society.',
     link: {
-      github: 'https://github.com/MathSocUNSW/mathsoc-website',
-      preview: 'https://unswmathsoc.org'
+      github: 'https://github.com/UNSW-CatSoc/catsoc-website',
+      preview: 'https://https://catsoc-website-preview.vercel.app/.org'
     },
-    image: '/images/basehub-nextjs-blog.png'
   },
 ]

@@ -40,12 +40,9 @@ export function ContactForm() {
     }
   })
 
-  const { handleSubmit, formState, control, watch, setError, clearErrors } =
-    form
+  const { handleSubmit, formState, control, watch, setError, clearErrors } = form
   const { isSubmitting } = formState
 
-  /* Watches for changes in the form fields and checks if the message field contains any URLs.
-  If a URL is found, it sets an error message for the message field. */
   useEffect(() => {
     const subscription = watch((value, { name }) => {
       if (name === 'message' && /http|www|href/.test(value.message ?? '')) {
@@ -72,13 +69,6 @@ export function ContactForm() {
       })
       return
     }
-
-    const formData = new FormData()
-    Object.entries(data).forEach(([key, value]) => {
-      if (value) {
-        formData.append(key, value)
-      }
-    })
 
     try {
       const response = await fetch('/api/send', {
@@ -119,7 +109,6 @@ export function ContactForm() {
         </CardHeader>
         <CardContent>
           <Form {...form}>
-            {/* eslint-disable-next-line @typescript-eslint/no-misused-promises */}
             <form noValidate onSubmit={handleSubmit(onSubmit)}>
               <div className='space-y-4'>
                 <div className='grid grid-cols-2 gap-4'>
@@ -200,7 +189,6 @@ export function ContactForm() {
                     )}
                   />
                 </div>
-                {/* Honeypot Field */}
                 <div style={{ display: 'none' }}>
                   <FormField
                     control={control}

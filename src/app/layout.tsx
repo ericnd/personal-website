@@ -16,8 +16,8 @@ import { cn } from '@/lib/utils'
 import './globals.css'
 
 const metadata: Metadata = {
-  title: 'Portfolio | Emanuel Peire',
-  description: 'My personal portfolio: showcasing my work and skills.'
+  title: 'Eric Do',
+  description: 'My personal website and portfolio.'
 }
 
 export default function RootLayout({

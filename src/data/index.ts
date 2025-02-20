@@ -296,7 +296,7 @@ export const PROJECTS = [
       'The unfinished website for the UNSW Cat Appreciation Society.',
     link: {
       github: 'https://github.com/UNSW-CatSoc/catsoc-website',
-      preview: 'https://https://catsoc-website-preview.vercel.app/.org'
+      preview: 'https://catsoc-website-preview.vercel.app/'
     },
   },
 ]

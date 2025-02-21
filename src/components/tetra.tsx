@@ -85,8 +85,8 @@ function drawLine(
 
 /** Spinning Tetrahedron React Component */
 const SpinningTetrahedron: React.FC = () => {
+  const { resolvedTheme } = useTheme();
   const [output, setOutput] = useState<string>("");
-  const { theme } = useTheme();
   const angleRef = useRef<number>(0);
   const frameId = useRef<number | null>(null);
 
@@ -141,13 +141,13 @@ const SpinningTetrahedron: React.FC = () => {
 
   return (
     <pre
-      style={{
-        color: theme === "light" ? "black" : "white",
+        style={{
+        color: resolvedTheme === "light" ? "black" : "white", // ✅ Use resolvedTheme here
         fontFamily: "monospace",
         lineHeight: "1em",
-      }}
+        }}
     >
-      {output}
+        {output}
     </pre>
   );
 };

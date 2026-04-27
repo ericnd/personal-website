@@ -31,9 +31,9 @@ export const AVATAR = {
 }
 
 export const ABOUT = {
-  title: `Computer Science Student @ UNSW`,
+  title: `Computer Science @ UNSW`,
   description: `Passionate about building high-performance systems and scalable applications. 
-  I focus on algorithmic solutions and performance optimisation, with interests spanning across data analytics and capital markets.`
+  I have experience in performance optimisation and systems design, with interests in formal verification and advanced algorithms.`
 }
 
 export const LINKS = [
@@ -79,7 +79,7 @@ export const CAREER = [
         start: 'Feb, 2023',
         end: 'May, 2023',
         description: [
-          'Analyzed 50+ hours of track data, improving battery accuracy.',
+          'Analysed 50+ hours of track data, improving battery accuracy.',
           'Modeled solar-electric vehicle dynamics, increasing race efficiency.',
           'Contributed to a world record and international race win through data insights.',
         ]
@@ -135,7 +135,7 @@ export const CAREER = [
         start: 'March, 2022',
         end: 'Oct, 2022',
         description: [
-          'Organized hackathons, sumobot competitions, and large-scale workshops.',
+          'Organised hackathons, sumobot competitions, and large-scale workshops.',
           'Mentored students on Arduino-based autonomous robot development.',
           'Maintained the society website using Next.js, TypeScript, and Tailwind.'
         ]

@@ -31,7 +31,7 @@ export const AVATAR = {
 }
 
 export const ABOUT = {
-  title: `Computer Science @ UNSW`,
+  title: `Software Engineer • UNSW '25`,
   description: `Passionate about building high-performance systems and scalable applications. 
   I have experience in performance optimisation and systems design, with interests in formal verification and advanced algorithms.`
 }
@@ -55,6 +55,21 @@ export const LINKS = [
 ]
 
 export const CAREER = [
+    {
+    company: 'UNSW Mathematics Society',
+    jobs: [
+      {
+        title: 'Director',
+        start: 'Oct, 2024',
+        end: 'Dec, 2025',
+        description: [
+          'Participated in cross-team initiatives to rebrand and market the society.',
+          'Led a team of 6 developers to build and maintain the society website.',
+          'Developed new website with Next.js, Tailwind and Google Drive API.',
+        ]
+      }
+    ]
+  },
   {
     company: 'Circana',
     jobs: [
@@ -98,21 +113,6 @@ export const CAREER = [
           'Streamlined workflows by managing user stories, improving efficiency.',
           'Enhanced customer satisfaction by through journey analysis.',
           'Boosted API performance via debugging Java methods and SQL queries.',
-        ]
-      }
-    ]
-  },
-  {
-    company: 'UNSW Mathematics Society',
-    jobs: [
-      {
-        title: 'Director',
-        start: 'Oct, 2022',
-        end: 'Present',
-        description: [
-          'Maintained MERN stack website integrated with 3rd party content managers.',
-          'Led cross-team initiatives to rebrand and market the society.',
-          'Developed a scheduling tool for subcommittee candidate interviews.'
         ]
       }
     ]

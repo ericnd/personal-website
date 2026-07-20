@@ -55,6 +55,20 @@ export const LINKS = [
 ]
 
 export const CAREER = [
+      {
+      company: 'Freelance',
+      jobs: [
+        {
+          title: 'Software Engineer',
+          start: 'May, 2025',
+          end: 'Current',
+          description: [
+            'Built a headless ecommerce platform using Next.js and Shopify Storefront API.',
+            'Preserved SEO across 1000+ prouct pages through server-side rendering and dynamic routing.',
+          ]
+        }
+      ]
+    },
     {
     company: 'UNSW Mathematics Society',
     jobs: [
@@ -74,13 +88,12 @@ export const CAREER = [
     company: 'Circana',
     jobs: [
       {
-        title: 'Data Analyst',
+        title: 'Product Coding and Attribution Specialist',
         start: 'Jul, 2023',
         end: 'Oct, 2023',
         description: [
-          'Ensured data compliance for 1500+ product categories using Python.',
-          'Built stakeholder relationships across Client Insights and other teams.',
-          'Improved business processes with Python scripts, boosting efficiency.',
+          'Ensured data compliance for 1500+ product categories.',
+          'Collaborated with Client Insights team to validate and clean client data.',
           'Conducted research on product categories to support business decisions.',
         ]
       }
@@ -105,7 +118,7 @@ export const CAREER = [
     company: 'Macquarie Group',
     jobs: [
       {
-        title: 'Summer Analyst',
+        title: 'Business Analyst Intern',
         start: 'Dec, 2022',
         end: 'Feb, 2023',
         description: [
@@ -236,6 +249,22 @@ const TAGS = {
 }
 
 export const PROJECTS = [
+    {
+    title: 'Z Two Lights Website',
+    tags: [
+      TAGS.NEXT,
+      TAGS.REACT,
+      TAGS.TAILWIND,
+      TAGS.TYPESCRIPT,
+      TAGS.CSS,
+      TAGS.VERCEL
+    ],
+    description:
+      'A website for a lighting company that showcases their products and services.',
+    link: {
+      preview: 'https://www.ztwolights.com.au/'
+    },
+  },
   {
     title: 'Propagate.Ink',
     tags: [
@@ -285,7 +314,7 @@ export const PROJECTS = [
     },
   },
   {
-    title: 'UNSW Cat Appreciation Society Website',
+    title: 'UNSW Cat Appreciation Society Draft Website',
     tags: [
       TAGS.NEXT,
       TAGS.REACT,

@@ -63,8 +63,8 @@ export const CAREER = [
           start: 'May, 2025',
           end: 'Current',
           description: [
-            'Built a headless ecommerce platform using Next.js and Shopify Storefront API.',
-            'Preserved SEO across 1000+ prouct pages through server-side rendering and dynamic routing.',
+            'Built a headless e-commerce platform using Next.js and the Shopify Storefront API, preserving SEO across 900+ product pages through static generation, schema markup, and exact URL retention.',
+            'Designed and built a PostgreSQL-backed CRM, migrating data from a legacy system to manage 1,800+ products, 3,000+ customers, 5,000+ invoices, and 1,000+ quotes.',
           ]
         }
       ]
